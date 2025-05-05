@@ -12,7 +12,8 @@
     "target": "es5",
     "importHelpers": true,
     "esModuleInterop": true,
-    "rootDirs": ["./src/"]
+    "rootDirs": ["./src/"],
+    "inlineSources": true
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "./test/**/*"]
